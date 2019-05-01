@@ -1,5 +1,25 @@
+body {
+  background-color: #556271;
+  margin: 0;
+  color: white;
+}
+
+/* * {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+} */
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 .App-logo {
@@ -21,6 +41,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: #FF6A67;
 }
 
 @keyframes App-logo-spin {

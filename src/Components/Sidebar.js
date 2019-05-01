@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import './App.css'
 
 class Sidebar extends Component {
   render() {
@@ -21,29 +20,23 @@ class Sidebar extends Component {
           </div>
         </nav>
         <nav id="links-menu">
-          <div id="navbartwo" className="links">
+          <div id="navbartwo" className="nav-links">
             <ul>
-              <li>
               <a href="https://twitter.com/Tiffany12904692">
                 <img
                   title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35"
                 />
-              </a>
-              </li>
-              <li>
+              </a>              
               <a href="https://linkedin.com/in/tjcbrown/">
                 <img
                   title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35"
                 />
-              </a>
-              </li>
-              <li>
+              </a>             
               <a href="https://www.instagram.com/TBlu___/">
                 <img
                   title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35"
                 />
               </a>
-              </li>
             </ul>
           </div>
         </nav>
