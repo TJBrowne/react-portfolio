@@ -8,39 +8,13 @@ import Projects from "./Components/Projects";
 class App extends Component {
   render() {
     return (
-      <div id="page">
-        <div id="container-wrap">
+      <div className="page">
+        <div className="container-wrap">
           <Sidebar />
-          <div id="main">
+          <div className="main">
             <Introduction />
             <About />
-            <Projects />
-            {/* <Blog />
-            <Timeline /> */}
-            <div className="body-parallax">
-              <div className="parallax-a">
-                <div className="parallax-left">
-                  <div className="parallax-item parallax-item--o parallax-item-left" />
-                  <div className="parallax-item parallax-item--x parallax-item-left" />
-                  <div className="parallax-item parallax-item--o parallax-item-left" />
-                </div>
-                <div className="parallax-mid-left">
-                  <div className="parallax-item parallax-item--x" />
-                  <div className="parallax-item parallax-item--o" />
-                  <div className="parallax-item parallax-item--x" />
-                </div>
-                <div className="parallax-mid-right">
-                  <div className="parallax-item parallax-item--o" />
-                  <div className="parallax-item parallax-item--x" />
-                  <div className="parallax-item parallax-item--o" />
-                </div>
-                <div className="parallax-right">
-                  <div className="parallax-item parallax-item--x" />
-                  <div className="parallax-item parallax-item--o" />
-                  <div className="parallax-item parallax-item--x" />
-                </div>
-              </div>
-            </div>
+            <Projects />           
           </div>
         </div>
       </div>
@@ -49,3 +23,5 @@ class App extends Component {
 }
 
 export default App;
+
+
