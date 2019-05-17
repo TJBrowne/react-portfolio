@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.About {
+  background: white;
+  padding: 20px;
+  margin: 1em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px black;
+          box-shadow: 0 10px 30px black;
+  width: 80%;
+}
+
+.About h1 {
+  font-size: 3em;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.About p {
+  font-optical-sizing: 10px;
+}
+/*# sourceMappingURL=About.css.map */

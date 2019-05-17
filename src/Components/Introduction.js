@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import "./Introduction.scss";
 
 class Introduction extends Component {
     render() {
       return (
-        <div>
-            <h1>Tiffany Brown, Web Developer</h1>
+        <div className="Intro">
+            <h1>Tiffany Brown</h1>
+            <h3>Web Developer</h3>
 
         </div>
       )

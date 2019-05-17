@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.Intro h1 {
+  font-size: 3em;
+  color: white;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.Intro h3 {
+  font-size: 2em;
+  color: white;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Introduction.css.map */

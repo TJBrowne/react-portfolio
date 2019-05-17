@@ -15,7 +15,7 @@ body .page {
   z-index: -1;
 }
 
-body .container-wrap {
+body Sidebar {
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -23,7 +23,7 @@ body .container-wrap {
   text-transform: uppercase;
 }
 
-main section#card {
+main About {
   background: white;
   padding: 20px;
   margin: 1em auto;
@@ -33,17 +33,17 @@ main section#card {
   width: 80%;
 }
 
-main section#card ul {
+main About ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-main section#card ul li {
+main About ul li {
   margin-bottom: 10px;
 }
 
-main section#card ul li span {
+main About ul li span {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -52,7 +52,7 @@ main section#card ul li span {
   margin-right: 10px;
 }
 
-main section#card ul li strong {
+main About ul li strong {
   display: inline-block;
   margin-left: 40px;
   margin-top: 10px;

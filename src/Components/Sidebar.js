@@ -1,19 +1,18 @@
 import React, { Component } from "react";
-import "./Sidebar.css";
+import "./Sidebar.scss";
 
 class Sidebar extends Component {
   render() {
     return (
       <div className="sideNav">
+        <div className="myPhoto">
+          <img src="src/images/IMG_9395.jpg" alt="Tiffany Brown Pic" />
+        </div>
 
-      <div className="myPhoto">
-        <img src="src/images/IMG_9395.jpg" alt="Tiffany Brown Pic" />
-      </div>
-      
-      <div>
-        <p>tbrown5254@gmail.com</p>
-        <p>(347)946-5755</p>
-      </div>
+        <div>
+          <p>tbrown5254@gmail.com</p>
+          <p>(347)946-5755</p>
+        </div>
         <nav className="navbar">
           <div>
             {/* make these links */}
@@ -27,7 +26,7 @@ class Sidebar extends Component {
           </ul> */}
           </div>
         </nav>
-        
+
         <nav id="links-menu">
           <div className="links">
             <div className="nav-links">

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$padding: 15px;
+$borders:15px;
+
+.Intro {
+    h1 {
+        font-size: 3em;
+        color: white;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 2em;
+        color: white;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+}
