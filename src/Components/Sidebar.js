@@ -17,9 +17,9 @@ class Sidebar extends Component {
         <nav className="navbar">
           <div>
             {/* make these links */}
-            <div class="grid-item">Introduction</div>
-            <div class="grid-item">About</div>
-            <div class="grid-item">Timeline</div>
+            <div className="grid-item">Introduction</div>
+            <div className="grid-item">About</div>
+            <div className="grid-item">Timeline</div>
             {/* <ul>
             <li><a href="intro">Introduction</a></li>
             <li><a href="about">About</a></li>
