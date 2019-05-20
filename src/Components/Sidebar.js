@@ -14,18 +14,6 @@ class Sidebar extends Component {
           <p>tbrown5254@gmail.com</p>
           <p>(347)946-5755</p>
         </div>
-        <nav className="navbar">
-        <span></span>
-          {/* <div>
-          
-                <Link to="/react">Introduction</Link>
-              
-                <Link to="/react">About</Link>
-              
-                <Link to="/react">Projects</Link>
-              
-          </div> */}
-        </nav>
 
         <nav id="links-menu">
           <div className="links">
