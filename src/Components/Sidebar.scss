@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
 $padding: 15px;
 $borders:15px;
 
@@ -9,4 +10,19 @@ $borders:15px;
     padding: $padding;
     display: block;
     text-transform: uppercase;
+
+    // .myPhoto {
+    //     position: absolute;
+    //     width: 30px;
+    //     height: 30px;
+    // }
+
+    span {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: color(primary-light);
+        border-radius: 50%;
+        margin-right: 10px;
+    }
 }

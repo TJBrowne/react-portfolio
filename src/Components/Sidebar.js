@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./Sidebar.scss";
 
 class Sidebar extends Component {
@@ -6,25 +7,24 @@ class Sidebar extends Component {
     return (
       <div className="sideNav">
         <div className="myPhoto">
-          <img src="src/images/IMG_9395.jpg" alt="Tiffany Brown Pic" />
+          {/* <img src="https://i.imgur.com/GrA6Jj0.jpg" alt="Tiffany Brown Pic" /> */}
         </div>
 
-        <div>
+        <div className="contact">
           <p>tbrown5254@gmail.com</p>
           <p>(347)946-5755</p>
         </div>
         <nav className="navbar">
-          <div>
-            {/* make these links */}
-            <div className="grid-item">Introduction</div>
-            <div className="grid-item">About</div>
-            <div className="grid-item">Timeline</div>
-            {/* <ul>
-            <li><a href="intro">Introduction</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="projects">Timeline</a></li>
-          </ul> */}
-          </div>
+        <span></span>
+          {/* <div>
+          
+                <Link to="/react">Introduction</Link>
+              
+                <Link to="/react">About</Link>
+              
+                <Link to="/react">Projects</Link>
+              
+          </div> */}
         </nav>
 
         <nav id="links-menu">

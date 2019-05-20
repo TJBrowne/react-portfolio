@@ -20,6 +20,16 @@ $borders:15px;
 
     p {
         font-optical-sizing: 10px;
-
+        display: inline-block;
+        margin-left: max(40px);
+        margin-top: 10px;
     }
+        span {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: color(primary-light);
+            border-radius: 50%;
+            margin-right: 10px;
+        }
 }
