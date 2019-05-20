@@ -32,7 +32,17 @@ body {
 }
 
 .routes {
-    
+        color: white;
+        padding: $padding;
+        display: block;
+        text-transform: uppercase;
+
+        .link {
+            text-Decoration: none; 
+            color: white;
+            display: inline-block;
+            padding: $padding;
+        }
 }
 
 

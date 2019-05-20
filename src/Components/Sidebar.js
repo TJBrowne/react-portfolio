@@ -53,11 +53,6 @@ class Sidebar extends Component {
           </div>
         </nav>
         <div className="footer">
-          <p>
-            Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-            <i className="icon-beer" aria-hidden="true" />
-            <br />
-          </p>
         </div>
       </div>
     );

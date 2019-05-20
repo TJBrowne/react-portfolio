@@ -10,14 +10,13 @@ class App extends Component {
   render() {
     return (
       <div className="page">
-        <div className="container-wrap">
-          
+        <div className="container-wrap">  
           <Router>
             <div className="routes">
               <nav className="navbar">
-                <Link to="/">Introduction</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
+                <Link className="link" to="/">Introduction</Link>
+                <Link className="link" to="/about">About</Link>
+                <Link className="link" to="/projects">Projects</Link>
               </nav>
               <Sidebar />
               <Route exact path="/" component={Introduction} />

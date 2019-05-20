@@ -14,4 +14,18 @@ body .page {
   position: absolute;
   z-index: -1;
 }
+
+.routes {
+  color: white;
+  padding: 15px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.routes .link {
+  text-Decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+}
 /*# sourceMappingURL=App.css.map */
