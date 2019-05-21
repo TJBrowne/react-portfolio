@@ -10,17 +10,17 @@
 }
 
 .Intro h1 {
-  font-size: 3em;
-  color: black;
-  margin-top: 10px;
+  font-size: 60px;
+  color: #181717;
   text-transform: uppercase;
+  margin: 50px;
 }
 
 .Intro h3 {
-  font-size: 2em;
-  color: black;
-  margin-top: 10px;
+  font-size: 40px;
+  color: #181717;
   text-transform: uppercase;
+  margin-left: 220px;
 }
 
 .Intro span {

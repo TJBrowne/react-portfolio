@@ -2,6 +2,7 @@
 
 $padding: 15px;
 $borders:15px;
+$margin: 50px;
 
 .Intro {
     background: white;
@@ -12,17 +13,20 @@ $borders:15px;
     width:80%;
 
     h1 {
-        font-size: 3em;
-        color: black;
-        margin-top: 10px;
+        font-size: 60px;
+        color: rgb(24, 23, 23);
+        // margin-top: 10px;
         text-transform: uppercase;
+        // padding: $padding;
+        margin: $margin;
     }
 
     h3 {
-        font-size: 2em;
-        color: black;
-        margin-top: 10px;
+        font-size: 40px;
+        color: rgb(24, 23, 23);
+        // margin-top: 1px;
         text-transform: uppercase;
+        margin-left: 220px;
     }
 
     span {
