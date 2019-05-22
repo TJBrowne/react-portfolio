@@ -8,7 +8,6 @@ class Introduction extends Component {
         {/* <span></span> */}
             <h1>Tiffany Brown</h1>
             <h3>Web Developer</h3>
-
         </div>
       )
     }
