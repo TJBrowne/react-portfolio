@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-.Intro {
+main .intro {
   background: white;
   padding: 20px;
   margin: 1em auto;
@@ -9,14 +9,14 @@
   width: 80%;
 }
 
-.Intro h1 {
+main .intro h1 {
   font-size: 60px;
   color: #181717;
   text-transform: uppercase;
   margin: 50px;
 }
 
-.Intro h3 {
+main .intro h3 {
   font-size: 40px;
   color: #181717;
   text-transform: uppercase;
