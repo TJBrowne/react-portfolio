@@ -19,7 +19,7 @@ class App extends Component {
                 <Link className="link" to="/">Home</Link>
                 <Link className="link" to="/about">About</Link>
                 <Link className="link" to="/projects">Projects</Link>
-                <Link className="link" to="/resume">Resume</Link>
+                <Link className="link" to="https://resume.creddle.io/resume/4jjqqhhtuf3">Resume</Link>
               </nav>
               <Sidebar />
               <div className="content">
